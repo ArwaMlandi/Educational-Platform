@@ -3,13 +3,13 @@ import React from 'react';
 import { MdMenuBook, MdStar } from 'react-icons/md';
 import './Course.css'
 
-import {course} from '../../db.json'
+
 import { toast, ToastContainer } from 'react-toastify';
 import { addToFavorite } from '../../Redux/actionSlice';
 import { useDispatch } from 'react-redux';
-const CourseCard = () => {
+const CourseCard = ({course}) => {
   const dispatch=useDispatch();
-   console.log(course)
+   
   return (
     <div>
         

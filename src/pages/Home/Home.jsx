@@ -30,9 +30,7 @@ const Home = () => {
 
   useEffect(() => {
     setcoursedata(dataCourse);
-    {
-      console.log(dataCourse);
-    }
+   
   }, [dataCourse]);
 
   const coursesToShow = dataCourse.slice(0, 3);

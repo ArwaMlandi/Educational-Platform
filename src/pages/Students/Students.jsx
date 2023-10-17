@@ -18,9 +18,7 @@ const Students = () => {
 
   useEffect(() => {
     setDataStudent(dataStudent);
-    {
-      console.log(dataStudent);
-    }
+    
   }, [dataStudent]);
 
   const [selectedStudent, setSelectedStudent] = useState(null);

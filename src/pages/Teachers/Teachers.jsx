@@ -19,9 +19,7 @@ const Teachers = () => {
 
   useEffect(() => {
     setDataTeacher(dataTeacher);
-    {
-      console.log(dataTeacher);
-    }
+   
   }, [dataTeacher]);
 
   return (

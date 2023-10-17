@@ -10,20 +10,18 @@ import { removeCourse, resertFavourite } from '../../Redux/actionSlice';
 import { Link } from 'react-router-dom';
 const Favourite = () => {
   const courseData= useSelector((state)=>state.educat.courseData)
-  console.log(courseData);
+ 
   const dispatch=useDispatch()
  const [totalPrice, setTotalPrice] = useState(0);
 
 useEffect(() => {
   let price = 0;
   courseData.forEach((item) => {
-    console.log('item.price:', item.price);
-    console.log('item.quantity:', item.quantity);
+
     price += item.price * item.quantity;
-    console.log('price:', price);
   });
 
-  console.log('totalPrice:', price);
+ 
 
   setTotalPrice(price.toFixed(2));
 
@@ -101,7 +99,7 @@ const containerAllStyle = {
       >
         Reset Favourite
       </button>
-      <Link to="/course">
+      <Link to="/Educational/course">
         <button className="go-shopping-button">
           <span>
             <HiOutlineArrowLeft />

@@ -2,9 +2,6 @@ import React from 'react'
 import NavBarUp from '../../component/Navbar/NavBarUp';
 import './Course.css';
 import imgee from "../../assets/images/img222.svg";
-import { AnimatePresence ,motion } from 'framer-motion';
-import {course} from '../../../db.json'
-import { MdMenuBook, MdStar } from 'react-icons/md';
 import { useState, useEffect } from 'react';
 import { useLoaderData } from 'react-router-dom';
 import CourseCard from './CourseCard';
@@ -25,7 +22,7 @@ const Course = () => {
   
   useEffect(()=>{
     setcourse(dataCourse);
-    {console.log(course)}
+   
   },[dataCourse])
 
 

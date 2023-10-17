@@ -3,14 +3,13 @@ import React from 'react';
 import './Course.css'
 import { MdArrowRight, MdMenuBook, MdStar } from 'react-icons/md';
 import { Link } from 'react-router-dom';
-import {course} from '../../../db.json'
 import { useDispatch } from 'react-redux';
 import { addToFavorite } from '../../Redux/actionSlice';
 import { toast, ToastContainer } from 'react-toastify';
 
 const CourseHome = ({coursedata}) => {
   const dispatch=useDispatch();
-    console.log(coursedata)
+  
  
   return (
 

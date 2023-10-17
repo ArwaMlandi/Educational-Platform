@@ -8,7 +8,7 @@ async function courseData() {
   
   } catch (error) {
     // Handle error
-    console.error(error);
+   
     throw error;
   }
 }
@@ -17,11 +17,11 @@ async function courseData() {
 export async function fetchData() {
   try {
     const data = await courseData();
-    console.log(data);
+
     return data;
   } catch (error) {
     // Handle error
-    console.error(error);
+ 
   }
 }
 
@@ -37,7 +37,7 @@ async function teacherData() {
   
   } catch (error) {
     // Handle error
-    console.error(error);
+  
     throw error;
   }
 }
@@ -46,11 +46,11 @@ async function teacherData() {
 export async function fetchDataTeacher() {
   try {
     const dataTeacher = await teacherData();
-    console.log(dataTeacher);
+   
     return dataTeacher;
   } catch (error) {
     // Handle error
-    console.error(error);
+ 
   }
 }
 
@@ -65,7 +65,7 @@ async function studentData() {
   
   } catch (error) {
     // Handle error
-    console.error(error);
+  
     throw error;
   }
 }
@@ -74,11 +74,11 @@ async function studentData() {
 export async function fetchDataStudent() {
   try {
     const dataStudent = await studentData();
-    console.log(dataStudent);
+  
     return dataStudent;
   } catch (error) {
     // Handle error
-    console.error(error);
+  
   }
 }
 

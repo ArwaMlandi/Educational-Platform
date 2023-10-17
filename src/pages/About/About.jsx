@@ -12,7 +12,6 @@ import ChooseUs from "../../component/ChooseUs/ChooseUs";
 import WhyUsImg from '../../assets/images/img6.jpg';
 const About = () => {
   const backgroundImageUrl = imgee;
-  console.log(backgroundImageUrl);
   const containerAllStyle = {
     backgroundImage: `url(${backgroundImageUrl})`,
     backgroundRepeat: "no-repeat",
