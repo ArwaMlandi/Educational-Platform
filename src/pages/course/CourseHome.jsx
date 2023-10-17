@@ -72,7 +72,7 @@ const CourseHome = ({coursedata}) => {
           ))}
            </AnimatePresence>
         </div>
-        <Link to="/Educational/course">
+        <Link to="/Educational-Platform/course">
         <p className="coursr-link-see">See More <span ><MdArrowRight/></span></p>
         </Link>
       </div>

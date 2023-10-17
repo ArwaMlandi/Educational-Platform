@@ -99,7 +99,7 @@ const containerAllStyle = {
       >
         Reset Favourite
       </button>
-      <Link to="/Educational/course">
+      <Link to="/Educational-Platform/course">
         <button className="go-shopping-button">
           <span>
             <HiOutlineArrowLeft />

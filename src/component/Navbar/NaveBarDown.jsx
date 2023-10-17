@@ -21,7 +21,7 @@ function NaveBarDown() {
       </div>
       <ul className="menue" style={{ top: menueopen && "0" }}>
         <li className={`nav-item ${activeItem === "home" ? "active" : ""}`}>
-          <Link onClick={() => handleClick("home")} to="/Educational/">
+          <Link onClick={() => handleClick("home")} to="/Educational-Platform/">
             Home
           </Link>
         </li>
@@ -50,34 +50,34 @@ function NaveBarDown() {
           </ul>
         </li>*/}
         <li className={`nav-item ${activeItem === "about" ? "active" : ""}`}>
-          <Link to="/Educational/about" onClick={() => handleClick("about")}>
+          <Link to="/Educational-Platform/about" onClick={() => handleClick("about")}>
             About
           </Link>
         </li>
         <li className={`nav-item ${activeItem === "news" ? "active" : ""}`}>
-          <Link to="/Educational/news" onClick={() => handleClick("news")}>
+          <Link to="/Educational-Platform/news" onClick={() => handleClick("news")}>
             News
           </Link>
         </li>
         <li className={`nav-item ${activeItem === "course" ? "active" : ""}`}>
-          <Link to="/Educational/course" onClick={() => handleClick("course")}>
+          <Link to="/Educational-Platform/course" onClick={() => handleClick("course")}>
             Courses
           </Link>
         </li>
         <li className={`nav-item ${activeItem === "teachers" ? "active" : ""}`}>
-          <Link to="/Educational/teachers" onClick={() => handleClick("teachers")}>
+          <Link to="/Educational-Platform/teachers" onClick={() => handleClick("teachers")}>
             Our Teachers
           </Link>
         </li>
 
        
         <li className={`nav-item ${activeItem === "students" ? "active" : ""}`}>
-          <Link to="/Educational/students" onClick={() => handleClick("students")}>
+          <Link to="/Educational-Platform/students" onClick={() => handleClick("students")}>
             Students
           </Link>
         </li>
         <li className={`nav-item ${activeItem === "contact" ? "active" : ""}`}>
-          <Link to="/Educational/favourite" onClick={() => handleClick("contact")}>
+          <Link to="/Educational-Platform/favourite" onClick={() => handleClick("contact")}>
           Favourite <BiHeart/>
          
           </Link>

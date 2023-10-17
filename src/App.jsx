@@ -28,7 +28,7 @@ const Layout = () => {
 
 const router = createBrowserRouter([
   {
-    path: "/Educational",
+    path: "/Educational-Platform",
     element: <Layout />,
     children: [
       {
