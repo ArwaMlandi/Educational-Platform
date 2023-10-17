@@ -2,7 +2,7 @@ import axios from 'axios';
 
 async function courseData() {
   try {
-    const response = await axios.get("http://localhost:3000/course");
+    const response = await axios.get("https://educate-server.onrender.com/course")
     const prouduct = response.data;
     return prouduct;
   
@@ -31,7 +31,7 @@ fetchData();
 
 async function teacherData() {
   try {
-    const response = await axios.get("http://localhost:3000/teachers");
+    const response = await axios.get('https://educate-server.onrender.com/teachers');
     const teacher = response.data;
     return teacher;
   
@@ -59,7 +59,7 @@ fetchDataTeacher();
 
 async function studentData() {
   try {
-    const response = await axios.get("http://localhost:3000/students");
+    const response = await axios.get('https://educate-server.onrender.com/students');
     const student = response.data;
     return student;
   

@@ -48,8 +48,13 @@
 .details-container p {
   margin: 5px 0;
   font-weight: bold;
+ 
 }
+.details-container-span{
+  font-size: 15px;
+  color: #003cff;
 
+}
 @media screen and (max-width: 766px) {
   .teachers-container {
     display: grid;
