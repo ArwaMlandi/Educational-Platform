@@ -34,7 +34,7 @@ const Home = () => {
   }, [dataCourse]);
 
   const coursesToShow = dataCourse.slice(0, 3);
-
+console.log(coursesToShow)
   return (
     <div>
       <div style={containerAllStyle}>

@@ -9,7 +9,7 @@ import { toast, ToastContainer } from 'react-toastify';
 
 const CourseHome = ({coursedata}) => {
   const dispatch=useDispatch();
-  
+  console.log(coursedata)
  
   return (
 
